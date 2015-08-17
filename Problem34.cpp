@@ -12,6 +12,7 @@ using namespace std;
 int fact[10];
 
 int fact_sum_of_dig(int n){
+  // Calculates the sum of the factorials of the digits of n
   int sum=0;
   
   while(n>0){
